@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #f4f4f4;
+    --primary-deep: #e0e0e0;
+    --sec-color: #000000;
+    --accent-color: #f80982;
+    --accent-background: #48fe04;
+    --accent-color-two: #f1c40f;
+    --accent-color-three: #f39c12;
+
+
+    /* dark mode pallette */
+
+    --dark-primary-color: #222328;
+    --dark-primary-deep: #1c1d1f;
+    --dark-sec-color: #888a97;
+    --dark-accent-color: #5a5bd3;
+    --dark-accent-background: #f1c40f;
+}
+  
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--primary-color);
+}
+
+.dark-mode {
+    background-color: var(--dark-primary-color);
+    color: var(--dark-sec-color);
+}
+
+.dark-mode header {
+    border-bottom: solid 2px var(--dark-sec-color);
+}
+
+.dark-mode .main-menu ul a {
+    color: var(--dark-sec-color);
+}
+
+.dark-mode .mobile-nav {
+    border-right: 2px solid var(--dark-sec-color);
+    
+    background-color: var(--dark-primary-color);
+}
+
+.dark-mode .mobile-nav li {
+    border-bottom: solid 2px var(--dark-sec-color);
+}
+
+.dark-mode .mobile-nav ul a {
+    color: var(--dark-sec-color);
+}
+
+.dark-mode .mobile-nav .socials a i {
+    color: var(--dark-accent-color);
+
+}
+
+.dark-mode .cart {
+    border-left: 2px solid var(--dark-sec-color);
+    
+    background-color: var(--dark-primary-color);
+}
+
+.dark-mode .product {
+    border-top: solid 2px var(--dark-sec-color);
+
+}
+
+.dark-mode .cart .cart-header {
+    border-bottom: 2px solid var(--dark-sec-color);
+}
+
+.dark-mode .product:last-child {
+    border-bottom: solid 2px var(--sec-color);
+}
+
+.dark-mode .product a {
+    color: var(--dark-sec-color);
+}
+
+.dark-mode .product:hover, .dark-mode .product:hover a {
+    color: var(--dark-accent-color);
+}
+
+.dark-mode .product-image {
+    background-color: var(--dark-primary-deep);
+}
+
+.dark-mode .product-info {
+    border-top: solid 2px var(--dark-sec-color);
+}
+
+.dark-mode .product-info .product-price {
+    color: var(--dark-accent-color);
+}
+
+.dark-mode footer {
+    color: var(--sec-color);
+    background-color: var(--dark-accent-color);
+
+    border-bottom: solid 2px var(--sec-color);
+}
