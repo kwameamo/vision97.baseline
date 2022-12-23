@@ -15,23 +15,22 @@
     <header>
         <div class="branding">
             <img class="logo" id="logo-blk" src="images/Vision97LogoW.svg" alt="Logo" width="150">
-            <img class="logo-white" id="logo-wht" src="images/Vision97LogoWHT.svg" alt="Logo" width="0">
         </div>
 
         <div class="main-menu">
             <ul>
-                <a onclick="openNav()"> <li>Menu</li> </a>
-                <a onclick="openCart()"> <li>Cart (0)</li> </a>
+                <button onclick="openNav()"> <li>Menu</li> </button>
+                <button onclick="openCart()"> <li>Cart (0)</li> </button>
             </ul>
         </div>
 
         <div class="mobile-nav" id="mobile-navigation">
             <ul>
-                <a onclick="closeNav()">
-                    <li>
-                        <span onclick="closeNav()" class="material-symbols-outlined">
+                <a>
+                    <li  class="closeNavwrap">
+                        <button onclick="closeNav()" class="material-symbols-outlined">
                             close
-                        </span>
+                        </button>
                     </li>
                 </a>
                 <a href=""> <li>Shop</li> </a>
@@ -51,9 +50,9 @@
         <div class="cart" id="cartSlide">
             <div class="cart-header">
                 <p>Your cart - 0 items</p>
-                <span onclick="closeCart()" class="material-symbols-outlined">
+                <button onclick="closeCart()" class="material-symbols-outlined">
                     close
-                </span>
+                </button>
             </div>
             <div class="cart-content">
                 <div class="empty">

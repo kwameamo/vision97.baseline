@@ -16,4 +16,5 @@ function openCart() {
 
 /* Close cart */
 function closeCart() {
-  document.getElementById("cartSlide").style.width = "0%";  }
+  document.getElementById("cartSlide").style.width = "0%";  
+}
