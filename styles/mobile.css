@@ -112,7 +112,7 @@
 
     .mode-toggle {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
 
@@ -124,6 +124,10 @@
 
     .mode-toggle i {
         font-size: 1rem;
+    }
+
+    .mode-toggle p {
+        padding: 0 1em;
     }
 
     .checkbox {
@@ -208,6 +212,8 @@
     .cart-header span {
         font-weight: 500;
         font-size: 1.5em;
+
+        cursor: pointer;
     }
 
     .cart-content {

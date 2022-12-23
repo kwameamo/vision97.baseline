@@ -30,6 +30,8 @@ body {
     background-color: var(--primary-color);
 }
 
+@media (prefers-color-scheme: dark) {
+
 .dark-mode {
     background-color: var(--dark-primary-color);
     color: var(--dark-sec-color);
@@ -106,4 +108,6 @@ body {
     background-color: var(--dark-accent-color);
 
     border-bottom: solid 2px var(--sec-color);
+}
+
 }
