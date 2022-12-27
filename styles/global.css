@@ -7,13 +7,13 @@
 }
 
 :root {
-    --primary-color: #f4f4f4;
-    --primary-deep: #e0e0e0;
-    --sec-color: #000000;
-    --accent-color: #f80982;
-    --accent-background: #f39c12;
+    --primary-color: #f3f6f9;
+    --primary-deep: #ffffff;
+    --sec-color: #1a2027;
+    --accent-color: #017921;
+    --accent-background: #e0e3e7;
     --accent-color-two: #f1c40f;
-    --accent-color-three: #48fe04;
+    --accent-color-three: #e7ebf0;
 }
   
 body {
